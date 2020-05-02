@@ -24,7 +24,7 @@ Contact: +254724375662
 - Checks whether the date and month entered is valid and displays an "Error message" if any of them (inputs) is invalid.
 - Clears and resets the form for new data.
 
-#### Link to Live Site: https://frankline-kiplangat.github.io/akan/
+#### Link to Live Site: https://frankline-kiplangat.github.io/akan-names/
 
 ### LIcense 
 
