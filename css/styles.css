@@ -5,19 +5,18 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 .container{
-    background-color: lightgrey;
+    background-color: rgb(131, 218, 240);
     width: 500px;
-    border: 5px solid rgb(0, 0, 0);
+    border: 5px solid rgb(131, 218, 240);
     padding: 30px;
     margin: 20px;
     margin-left: auto;
   }
 .form{
-    background-color: lightgrey;
+    background-color: rgb(131, 218, 240);
     width: 500px;
-    height: auto;
-    border: 5px solid rgb(0, 0, 0);
-    padding: 30px;
+    border: 5px solid rgb(131, 218, 240);
+    padding: 92px;
     margin: 20px;
     float: left;
 }
@@ -26,5 +25,10 @@ ul{
 }
 h1{
     font-weight: bold;
-;
+}
+.radio{
+    margin-right: 10px;
+}
+gender{
+    width: 200px;
 }

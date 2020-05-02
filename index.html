@@ -18,15 +18,16 @@
     </div>
 
         <div class="form">
-            <form name="akan-names" onsubmit="reset">
+            <form name="akan-names" onsubmit="return false">
                 <div class="date">
                     <ul>
                         <li>
                             <label for="">Date of Birth</label> 
                         </li>
                         <li>
-                            <input type="date" class="DOB" name="date" id="date" style="text-transform: uppercase" format="MM/DD/YY" width="200px">
+                            <input type="date" class="dob" name="mydate" id="mydate" style="text-transform: uppercase" format="MM/DD/YY" width="200px">
                         </li>
+                        <li><div class = "errormessage" id = "mydateerror"></div></li>
                     </ul>
                 </div>
                 <div class="gender">
@@ -35,14 +36,19 @@
                             <label for="">Gender</label>
                         </li>
                         <li>
-                            <input type="radio" name="gender" value="male" class="radio" id="male">Male
-                            <input type="radio" name="gender" value="female" class="radio" class="female">Female
+                            <select id="gender">
+                                <option value="gender">Gender</option>
+                                <option value="male">Male</option required>
+                                <option value="female">Female</option required>
+                            </select>
+                            <!-- <input type="radio" name="gender" value="male" class="radio" id="male">Male
+                            <input type="radio" name="gender" value="female" class="radio" class="female">Female -->
                         </li>
                         <li><div class="errormessage" id="gendererror"></div></li>
                     </ul>
                     </div>
                     <input type="submit" name="submit" class="button" value="Generate" onclick="validate()">
-                    <input type="reset" onclick="refresh(); return false;" class="button" value="Refresh">
+                    <input type="reset" onclick="reset(); return false;" class="button" value="Reset">
             </form>
             </div>
         </div>
