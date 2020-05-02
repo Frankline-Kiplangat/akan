@@ -15,7 +15,7 @@ Contact: +254724375662
 - Bootstrap
 
 #### Setup Instructions
-- Use terminal or command prompt to make a folder " mkdir Akan-Names"
+- Use terminal or command prompt to make a folder  mkdir Akan-Names
 - Clone this repository to the created folder "https://github.com/Frankline-Kiplangat/akan.git"
 - Open it on your text editor "VS code or Atom"
 
