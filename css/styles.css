@@ -11,6 +11,7 @@ body{
     padding: 30px;
     margin: 20px;
     margin-left: auto;
+    float: left;
   }
 .form{
     background-color: rgb(131, 218, 240);
