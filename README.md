@@ -4,7 +4,9 @@ This web application takes user's birthdays and calculates the day of the week t
 
 
 ## Contributors
-Frankline Kiplangat <kipfrankline@gmail.com>
+Frankline Kiplangat 
+<kipfrankline@gmail.com>
+Contact: +254724375662 
 
 ### Technologies Used
 - HTML
