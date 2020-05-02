@@ -1,6 +1,23 @@
 body{
-    /* background-image: url("/images/cover-image1.jpg");
+    background-image: url("/images/cover-image2.jpg");
     background-repeat: no-repeat;
-    background-size: cover; */
-    background-color: aqua;
+    background-size: cover;
+}
+.container{
+    background-color: lightgrey;
+    width: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 20px;
+  }
+.form{
+    background-color: lightgrey;
+    width: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    padding: 30px;
+    margin: 20px;
+    float: left;
+}
+ul{
+    list-style: none;
 }
