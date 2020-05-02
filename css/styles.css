@@ -1,7 +1,8 @@
 body{
-    background-image: url("/images/cover-image2.jpg");
+    background-image: url("/images/cover-image3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
 }
 .container{
     background-color: lightgrey;
@@ -9,10 +10,12 @@ body{
     border: 5px solid rgb(0, 0, 0);
     padding: 30px;
     margin: 20px;
+    margin-left: auto;
   }
 .form{
     background-color: lightgrey;
     width: 500px;
+    height: auto;
     border: 5px solid rgb(0, 0, 0);
     padding: 30px;
     margin: 20px;
@@ -20,4 +23,8 @@ body{
 }
 ul{
     list-style: none;
+}
+h1{
+    font-weight: bold;
+;
 }
