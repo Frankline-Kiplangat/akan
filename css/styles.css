@@ -1,5 +1,5 @@
 body{
-    background-image: url("/images/cover-image3.jpeg");
+    background-image: url("./images/cover-image3.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
