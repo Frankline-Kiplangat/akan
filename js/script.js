@@ -5,25 +5,30 @@ var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 // Frontend logic //
 function findAkanNames(){
-    var day = parseInt(document.getElementById("day").value);
+    var date = parseInt(document.getElementById("date").value);
     var month = parseInt(document.getElementById("month").value);
     var year = parseInt(document.getElementById("year").value);
     var male = document.getElementById("male");
     var female = document.getElementById("female");
      
-    if (day <= 0 || day > 31 ){
-        alert("Please enter a valid day!");
-    } else if (month <= 0 ||  month > 12  || (month == 2 && day >29)){
+    if (date <= 0 || date > 31 ){
+        alert("Please enter a valid date!");
+    } else if (month <= 0 ||  month > 12  || (month == 2 && date >29)){
         alert("Please enter a valid month!")
+    } else if(year <= 0){
+        alert("Please enter a valid year")
     }
 
-    
+    function date() {
+        ("datepicker").datepicker({maxDate: today});
+      }
+      day = Math.floor(d)-1;
 
     // d = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (5 + 1) / 10)) + 9) % 7; //
 
 
-    var newDate = new Date(day + "/" + month + "/" + year);
-    var d = newDate.getDay();
+    var newDate = new Date(date + "/" + month + "/" + year);
+    var d = newDate.getDate();
     if (male.checked == true){
         alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
         console.log(daysOfTheWeek[d]);
@@ -32,6 +37,8 @@ function findAkanNames(){
         alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + femaleNames[d]);
         console.log(daysOfTheWeek[d]);
         console.log(femaleNames[d]);
+    } else {
+        alert("Select gender")
     }
 }
 

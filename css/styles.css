@@ -2,7 +2,10 @@ body{
     background-image: url("/images/cover-image2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(230, 182, 93);
     font-family: 'Times New Roman', Times, serif;
+    background-attachment: fixed;
+
 }
 .container{
     background-color: rgb(131, 218, 240);
