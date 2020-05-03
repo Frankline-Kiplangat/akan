@@ -7,6 +7,7 @@ body{
 .container{
     background-color: rgb(131, 218, 240);
     width: 500px;
+    height: 450px;
     border: 5px solid rgb(131, 218, 240);
     padding: 30px;
     margin: 20px;
@@ -16,6 +17,7 @@ body{
 .form{
     background-color: rgb(131, 218, 240);
     width: 500px;
+    height: 450px;
     border: 5px solid rgb(131, 218, 240);
     padding: 30px;
     margin: 20px;
@@ -35,4 +37,17 @@ h1{
 }
 gender{
     width: 200px;
+}
+
+#akan-names{
+    color: black;
+    background-color: rgb(131, 218, 240);
+}
+.display {
+    font-size: 22px;
+}
+
+.display {
+ font-size: inherit;
+
 }
