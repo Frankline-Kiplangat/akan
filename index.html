@@ -33,21 +33,21 @@
                 <div class="gender">
                     <ul>
                         <li>
-                            <label for="">Gender</label>
+                            <label for="">Choose your gender</label>
                         </li>
                         <li>
-                            <select id="gender">
+                            <!-- <select id="gender">
                                 <option value="gender">Gender</option>
                                 <option value="male">Male</option required>
                                 <option value="female">Female</option required>
-                            </select>
-                            <!-- <input type="radio" name="gender" value="male" class="radio" id="male">Male
-                            <input type="radio" name="gender" value="female" class="radio" class="female">Female -->
+                            </select> -->
+                            <input type="radio" name="gender" value="Male" class="radio" id="Male">Male
+                            <input type="radio" name="gender" value="Female" class="radio" class="Female">Female
                         </li>
                         <li><div class="errormessage" id="gendererror"></div></li>
                     </ul>
                     </div>
-                    <input type="submit" name="submit" class="button" value="Generate" onclick="validate()">
+                    <input type="submit" name="submit" class="button" value="Generate" onclick="validate()" style="margin-left: 40px;">
                     <input type="reset" onclick="reset(); return false;" class="button" value="Reset">
             </form>
             </div>
