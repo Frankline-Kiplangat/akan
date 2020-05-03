@@ -24,7 +24,7 @@ function findAkanNames(){
 
     var newDate = new Date(day + "/" + month + "/" + year);
     var d = newDate.getDay();
-    if (option){
+    if (male.checked == true){
         alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
         console.log(daysOfTheWeek[d]);
         console.log(maleNames[d]);
