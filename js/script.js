@@ -19,14 +19,13 @@ function findAkanNames(){
 
     
 
-    // d = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (5 + 1) / 10)) + 9) % 7;
+    // d = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (5 + 1) / 10)) + 9) % 7; //
 
 
     var newDate = new Date(day + "/" + month + "/" + year);
     var d = newDate.getDay();
     if (male.checked == true){
         alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
-        // document.getElementById('akan-names').innerHTML = "You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d];
         console.log(daysOfTheWeek[d]);
         console.log(maleNames[d]);
     } else if (female.checked == true){
