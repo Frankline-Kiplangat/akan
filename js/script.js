@@ -10,7 +10,7 @@ function findAkanNames(){
     var year = parseInt(document.getElementById("year").value);
     var male = document.getElementById("male");
     var female = document.getElementById("female");
-
+     
     if (day <= 0 || day > 31 ){
         alert("Please enter a valid day!");
     } else if (month <= 0 ||  month > 12  || (month == 2 && day >29)){
@@ -24,7 +24,7 @@ function findAkanNames(){
 
     var newDate = new Date(day + "/" + month + "/" + year);
     var d = newDate.getDay();
-    if (male.checked == true){
+    if (option){
         alert("You were born on " + daysOfTheWeek[d] +  " and your Akan name is " + maleNames[d]);
         console.log(daysOfTheWeek[d]);
         console.log(maleNames[d]);
