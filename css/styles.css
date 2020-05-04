@@ -1,5 +1,5 @@
 body{
-    background: url(/images/cover-image2.jpg);
+    background: url("../images/ghana.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Times New Roman', Times, serif;
