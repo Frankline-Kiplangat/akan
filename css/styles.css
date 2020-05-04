@@ -1,47 +1,49 @@
 body{
-    background-image: url("/images/cover-image2.jpg");
+    background: url(/images/ghana.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgb(230, 182, 93);
     font-family: 'Times New Roman', Times, serif;
     background-attachment: fixed;
 
+    
 }
 .container{
     background-color: rgb(131, 218, 240);
     width: 500px;
-    height: 450px;
+    height: 400px;
     border: 5px solid rgb(131, 218, 240);
-    padding: 30px;
-    margin: 20px;
+    padding: 20px;
+    margin: auto;
     margin-left: auto;
-    float: left;
+    margin-top: 100px;
+    float: right;
     border-radius: 20%;
   }
 .form{
     background-color: rgb(131, 218, 240);
-    width: 500px;
-    height: 450px;
+    width: 450px;
+    height: 400px;
     border: 5px solid rgb(131, 218, 240);
     padding: 30px;
-    margin: 20px;
+    margin-top: 100px;
     float: left;
     border-radius: 20%;
 }
-ul{
-    list-style: none;
-}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 2.5rem;  
+    color: rgb(135, 227, 243);        
+  }
 h1{
     font-weight: bold;
-    font-size: large;
+    font-size: medium;
     color: darkblue;
     font-family: 'Times New Roman', Times, serif;
 }
 .radio{
     margin-right: 10px;
-}
-gender{
-    width: 200px;
 }
 
 #akan-names{

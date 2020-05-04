@@ -6,6 +6,9 @@ This web application takes user's birthdays and calculates the day of the week t
 ## Contributors
 Frankline Kiplangat 
 <kipfrankline@gmail.com>
+
+## 
+
 Reach out to me on: +254101003901
 
 ### Technologies Used
