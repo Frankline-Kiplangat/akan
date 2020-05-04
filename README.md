@@ -9,7 +9,7 @@ Frankline Kiplangat
 
 ## 
 
-Contact: +254101003901
+Reach out to me on: +254101003901
 
 ### Technologies Used
 - HTML
