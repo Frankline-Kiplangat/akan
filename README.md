@@ -6,7 +6,7 @@ This web application takes user's birthdays and calculates the day of the week t
 ## Contributors
 Frankline Kiplangat 
 <kipfrankline@gmail.com>
-Contact: +254724375662 
+Contact: +254101003901
 
 ### Technologies Used
 - HTML
@@ -16,7 +16,7 @@ Contact: +254724375662
 
 #### Setup Instructions
 - Use terminal or command prompt to make a folder  mkdir Akan-Names
-- Clone this repository to the created folder "https://github.com/Frankline-Kiplangat/akan.git"
+- Clone this repository to the created folder using "https://github.com/Frankline-Kiplangat/akan.git"
 - Open it on your text editor "VS code or Atom"
 
 ## Behaviour Driven DEvelopment
